@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cityscape Homepage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar a:hover {
+            color: #ddd;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            background: url('https://assets.grok.com/users/3b1a269e-e245-4518-9bc8-ca3287017a52/Eoc0sTiRXRTV03Br-generated_image.jpg') no-repeat center center/cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+            position: relative;
+        }
+
+        /* Features Section */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .feature-card {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            color: #333;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-card i {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #007bff;
+        }
+
+        .feature-card p {
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        /* Footer */
+        footer {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            padding: 1rem;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        footer a:hover {
+            color: #ddd;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                gap: 1rem;
+                padding: 1rem;
+            }
+            .features {
+                grid-template-columns: 1fr;
+            }
+            .feature-card {
+                margin: 0 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#">🏠 Home</a>
+        <a href="#">🔍 Search</a>
+        <a href="#">📊 Stats</a>
+        <a href="#">👤 Profile</a>
+        <a href="#">💬 Chat</a>
+        <a href="#">🌐 More</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="features">
+            <div class="feature-card">
+                <i class="fas fa-laptop"></i>
+                <p>Feature One: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-desktop"></i>
+                <p>Feature Two: Sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-building"></i>
+                <p>Feature Three: Ut enim ad minim veniam, quis nostrud exercitation.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-window-maximize"></i>
+                <p>Feature Four: Duis aute irure dolor in reprehenderit in voluptate.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-globe"></i>
+                <p>Feature Five: Excepteur sint occaecat cupidatat non proident.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-network-wired"></i>
+                < used to be a sunset cityscape. The new background is a nighttime cityscape with illuminated buildings, giving a different atmosphere while maintaining the urban theme.
+
+### How to Use a Custom Image:
+If you have a specific image you’d like to use (e.g., from a URL or a local file):
+1. **Using a URL**: Replace the Unsplash URL in the `.hero` section with your image URL, like this:
+   ```css
+   background: url('YOUR_IMAGE_URL') no-repeat center center/cover;
