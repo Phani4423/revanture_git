@@ -1,0 +1,212 @@
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~
+$ ls
+ AppData/                                                                                       SendTo@
+'Application Data'@                                                                            'Start Menu'@
+ Contacts/                                                                                      Templates@
+ Cookies@                                                                                       Videos/
+ Documents/                                                                                     flex.css
+ Downloads/                                                                                     flex.html
+ Favorites/                                                                                     git
+ Introduction_to_Cloud_Computing_Badge20240219-34-rihszs.pdf                                   'heroku-x64 (1).exe'*
+ Links/                                                                                         heroku-x64.exe*
+'Local Settings'@                                                                               insex.html
+ Music/                                                                                         mysql-installer-community-8.0.40.0.msi
+'My Documents'@                                                                                 node-v20.11.0-x64.msi
+ NTUSER.DAT                                                                                     ntuser.dat.LOG1
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf                                        ntuser.dat.LOG2
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms   ntuser.ini
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms   postgresql-17.1-1-windows-x64.exe*
+ NetHood@                                                                                       source/
+ OneDrive/                                                                                      style.css
+ PrintHood@                                                                                     test/
+ PycharmProjects/                                                                              'vishnu sai kumar dara resume.pdf'
+ Recent@                                                                                        while12.py
+'Saved Games'/                                                                                  while6.py
+ Searches/
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~
+$ pwd
+/c/Users/M.phani kumar
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~
+$ mkdir test
+mkdir: cannot create directory ‘test’: File exists
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~
+$ cd test
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/test (master)
+$ mkdir test1
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/test (master)
+$ ls
+Untitled-1.html  file.txt/  file1.txt  file2.txt  test1/
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/test (master)
+$ rmdir test1
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/test (master)
+$ ls
+Untitled-1.html  file.txt/  file1.txt  file2.txt
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/test (master)
+$ cd ..
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~
+$ ls
+ AppData/                                                                                       SendTo@
+'Application Data'@                                                                            'Start Menu'@
+ Contacts/                                                                                      Templates@
+ Cookies@                                                                                       Videos/
+ Documents/                                                                                     flex.css
+ Downloads/                                                                                     flex.html
+ Favorites/                                                                                     git
+ Introduction_to_Cloud_Computing_Badge20240219-34-rihszs.pdf                                   'heroku-x64 (1).exe'*
+ Links/                                                                                         heroku-x64.exe*
+'Local Settings'@                                                                               insex.html
+ Music/                                                                                         mysql-installer-community-8.0.40.0.msi
+'My Documents'@                                                                                 node-v20.11.0-x64.msi
+ NTUSER.DAT                                                                                     ntuser.dat.LOG1
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf                                        ntuser.dat.LOG2
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms   ntuser.ini
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms   postgresql-17.1-1-windows-x64.exe*
+ NetHood@                                                                                       source/
+ OneDrive/                                                                                      style.css
+ PrintHood@                                                                                     test/
+ PycharmProjects/                                                                              'vishnu sai kumar dara resume.pdf'
+ Recent@                                                                                        while12.py
+'Saved Games'/                                                                                  while6.py
+ Searches/
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~
+$ mkdir commands
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~
+$ ls
+ AppData/                                                                                       NetHood@               heroku-x64.exe*
+'Application Data'@                                                                             OneDrive/              insex.html
+ Contacts/                                                                                      PrintHood@             mysql-installer-community-8.0.40.0.msi
+ Cookies@                                                                                       PycharmProjects/       node-v20.11.0-x64.msi
+ Documents/                                                                                     Recent@                ntuser.dat.LOG1
+ Downloads/                                                                                    'Saved Games'/          ntuser.dat.LOG2
+ Favorites/                                                                                     Searches/              ntuser.ini
+ Introduction_to_Cloud_Computing_Badge20240219-34-rihszs.pdf                                    SendTo@                postgresql-17.1-1-windows-x64.exe*
+ Links/                                                                                        'Start Menu'@           source/
+'Local Settings'@                                                                               Templates@             style.css
+ Music/                                                                                         Videos/                test/
+'My Documents'@                                                                                 commands/             'vishnu sai kumar dara resume.pdf'
+ NTUSER.DAT                                                                                     flex.css               while12.py
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf                                        flex.html              while6.py
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms   git
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms  'heroku-x64 (1).exe'*
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~
+$ cd commands
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ mkdir test1
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ ls
+test1/
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ uname
+MINGW64_NT-10.0-22631
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ locate test1
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ touch sample.txt
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ ls
+sample.txt  test1/
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ cad sample.txt
+bash: cad: command not found
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ cat sample.txt
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ ps
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     1409       1    1409      22872  ?         197609 10:44:21 /usr/bin/mintty
+     1517    1410    1517      32816  pty0      197609 11:52:06 /usr/bin/ps
+     1410    1409    1410       1904  pty0      197609 10:44:22 /usr/bin/bash
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ man cat
+bash: man: command not found
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ man ld
+bash: man: command not found
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ cat sample.txt
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ cat sample.txt
+hello
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ cat sample.txt | grep "llo"
+hello
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ cat sample.txt | grep "llo"
+hello
+world hell llo sampllo
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ whoami
+M.phani kumar
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ cat sample.txt
+hello
+world hell llo sampllo
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ sort sample.txt
+hello
+world hell llo sampllo
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  238G  124G  114G  53% /
+D:                    932G   33G  899G   4% /d
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ wc sample.txt
+ 5  5 37 sample.txt
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ wc -c sample.txt
+37 sample.txt
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ touch sample2.txt
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ eco -e "new file is created " > sample2.txt
+bash: eco: command not found
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ echo -e "new file is created " > sample2.txt
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ wc -l sample.txt
+5 sample.txt
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$ wc -m sample.txt
+37 sample.txt
+
+M.phani kumar@LAPTOP-IC7VA5TD MINGW64 ~/commands
+$
